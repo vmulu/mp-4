@@ -1,4 +1,4 @@
-
+"use server"
 const API_KEY=process.env.CAT_API_KEY;
 
 export default async function getCats(){
