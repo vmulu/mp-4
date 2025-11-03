@@ -7,7 +7,11 @@ export default function Home() {
                 Welcome to my Cat App
             </h1>
             <p className="text-lg font-medium">
-                This app fetches real Bengal cat images using The Cat API. The internet always needs more cats.
+                This app fetches real Bengal cat images using
+                <br />
+                <a className="underline" href="https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t">The Cat API.</a>
+                <br />
+                The internet always needs more cats.
             </p>
         </div>
   );
